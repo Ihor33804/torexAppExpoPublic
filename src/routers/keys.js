@@ -1,0 +1,10 @@
+export const FORGOT_PASSWORD = 'FORGOT_PASSWORD';
+export const LOGIN = 'LOGIN';
+export const NEW_PASSWORD = 'NEW_PASSWORD';
+export const PASSWORD_RESET = 'PASSWORD_RESET';
+export const FORM_SELECTED = 'FORM_SELECTED';
+export const FORM_SUBMITTED = 'FORM_SUBMITTED';
+export const RECENT_FORM = 'RECENT_FORM';
+export const SELECT_FORM = 'SELECT_FORM';
+export const PRELOAD_SCREEN = 'PRELOAD_SCREEN';
+

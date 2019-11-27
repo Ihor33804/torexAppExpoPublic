@@ -1,0 +1,24 @@
+{
+  "name": "gitlab.com/kwinyyyc/expo-react-native",
+  "version": "0.0.0",
+  "description": "kwinyyyc/expo-react-native @ Aug 9, 2019",
+  "author": null,
+  "private": true,
+  "main": "node_modules/expo/AppEntry.js",
+  "devDependencies": {
+    "babel-preset-expo": "^7.0.0"
+  },
+  "dependencies": {
+    "expo": "^34.0.0",
+    "react": "16.8.3",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-34.0.2.tar.gz",
+    "react-dom": "^16.8.6",
+    "prop-types": "15.7.2",
+    "@expo/samples": "~3.0.3",
+    "react-native-web": "^0.11.4",
+    "react-navigation": "4.0.10",
+    "react-test-renderer": "16.12.0",
+    "@react-navigation/web": "^1.0.0-alpha.9",
+    "@react-navigation/core": "^3.0.0-alpha.13"
+  }
+}
