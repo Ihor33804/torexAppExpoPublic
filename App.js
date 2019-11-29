@@ -5,10 +5,13 @@ import Login from './src/screens/Authorization/Login';
 export default function App() {
   return (
     <View style={styles.container}>
-      <Login />
+  
+     <Login />
     </View>
   );
 }
+
+//  <Login />
 
 const styles = StyleSheet.create({
   container: {

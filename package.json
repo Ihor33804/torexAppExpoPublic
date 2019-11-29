@@ -1,7 +1,7 @@
 {
-  "name": "gitlab.com/kwinyyyc/expo-react-native",
+  "name": "github.com/ihor33804/torexappexpopublic",
   "version": "0.0.0",
-  "description": "kwinyyyc/expo-react-native @ Aug 9, 2019",
+  "description": "Ihor33804/torexAppExpoPublic @ Nov 27, 2019",
   "author": null,
   "private": true,
   "main": "node_modules/expo/AppEntry.js",
@@ -14,6 +14,7 @@
     "react-native": "https://github.com/expo/react-native/archive/sdk-34.0.2.tar.gz",
     "react-dom": "^16.8.6",
     "prop-types": "15.7.2",
+    "native-base": "2.13.8",
     "@expo/samples": "~3.0.3",
     "react-native-web": "^0.11.4",
     "react-navigation": "4.0.10",

@@ -1,2 +1,21 @@
-export const ICON = require('../../assets/icon.png');
-export const SPLASH = require('../../assets/splash.png.png');
+// export const ICON = require('../../assets/icon.png');
+// export const SPLASH = require('../../assets/splash.png');
+// export const ACTIVE = require('../../assets/active.png');
+// export const APP_STORE = require('../../assets/app_store.png');
+// export const AVATAR = require('../../assets/avatar.png');
+// export const BIBOX = require('../../assets/bibox.png');
+// export const BINANCE = require('../../assets/binance.png');
+// export const BITFINEX = require('../../assets/bitfinex.png');
+// export const BITMAX = require('../../assets/bitmax.png');
+// export const BITTREX = require('../../assets/bittrex.png');
+// export const BKEX = require('../../assets/bkex.png');
+// export const CREX24 = require('../../assets/crex24.png');
+// export const DISABLED = require('../../assets/disabled.png');
+// export const DONE = require('../../assets/done.png');
+// export const EMPTY_AVATAR = require('../../assets/empty_avatar.png');
+// export const GOOGLE_PLAY = require('../../assets/google_play.png');
+// export const HUOBI = require('../../assets/huobi.png');
+// export const KUCOIN = require('../../assets/kucoin.png');
+// export const LOGO = require('../../assets/logo.png');
+// export const POLONIEX = require('../../assets/poloniex.png');
+

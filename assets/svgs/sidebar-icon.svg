@@ -1,0 +1,18 @@
+<svg  fill="none" xmlns="http://www.w3.org/2000/svg">
+    <mask id="a" fill="#fff">
+        <rect width="7.71" height="7.71" rx="1"/>
+    </mask>
+    <rect width="7.71" height="7.71" rx="1" stroke="#fff" stroke-width="4" mask="url(#a)"/>
+    <mask id="b" fill="#fff">
+        <rect x="10.29" width="7.71" height="7.71" rx="1"/>
+    </mask>
+    <rect x="10.29" width="7.71" height="7.71" rx="1" stroke="#fff" stroke-width="4" mask="url(#b)"/>
+    <mask id="c" fill="#fff">
+        <rect y="10.29" width="7.71" height="7.71" rx="1"/>
+    </mask>
+    <rect y="10.29" width="7.71" height="7.71" rx="1" stroke="#fff" stroke-width="4" mask="url(#c)"/>
+    <mask id="d" fill="#fff">
+        <rect x="10.29" y="10.29" width="7.71" height="7.71" rx="1"/>
+    </mask>
+    <rect x="10.29" y="10.29" width="7.71" height="7.71" rx="1" stroke="#fff" stroke-width="4" mask="url(#d)"/>
+</svg>
