@@ -9,20 +9,17 @@ import { StyleSheet } from 'react-native';
 export default StyleSheet.create({ //28.11.2019 23:34
 
     linkContainer: {
-        marginTop: scale(5),
-        marginBottom : scale(35),
+       // marginTop: scale(5),
+        marginBottom : scale(40),
         width: '100%',
-        flex: 1,
-        justifyContent: 'center',
+       
     },
 
    
     linkTitle: {
       color: '#2cc981',
       fontSize: regular,
-       flex: 1,
-      justifyContent: 'center',
-      alignItems: 'center',
+      textAlign: 'center',
       textDecorationLine: 'underline',
     }
   

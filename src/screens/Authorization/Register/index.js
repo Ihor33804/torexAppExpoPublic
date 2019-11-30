@@ -3,23 +3,20 @@ import {Text, View} from 'react-native';
 import styles from './styles';
 import InputComponent from '../../../components/InputComponent';
 import ButtonComponent from '../../../components/ButtonComponent';
-import LinkIdentificationComponent from '../../../components/LinkIdentificationComponent';
-import ResetPassword from '../../../screens/Authorization/ResetPassword';
 
-class Login extends Component { //28.11.2019 23:34
+class Register extends Component { //29.11.2019 23:34
     render() {
         return (
-            <View style={[styles.container]}>
-              
+            <View style={[styles.container]}>     
+                <InputComponent placeholder="Full Name"/>
                 <InputComponent placeholder="Email"/>
                 <InputComponent placeholder="Password"/>
-                
-                <LinkIdentificationComponent/>
-                <ButtonComponent titleButton="Log in"/>
+                <InputComponent placeholder="Confirm password"/>
+                <ButtonComponent titleButton="Register"/>
             </View>
         );
     }
 }
 
 
-export default Login;
+export default Register;
