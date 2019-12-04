@@ -4,14 +4,14 @@ import { StyleSheet } from 'react-native';
 // import {} from '../../../styles/constants';
 
  const { regular } = variables.fontSize;
- import { BACKGROUND_COLOR, WHITE, GREY } from '../../../styles/colorConstants'; 
+ import { BACKGROUND_COLOR, WHITE, GREY ,  INPUT_BORDER_COLOR,} from '../../../styles/colorConstants'; 
 // const { IBMPlexSans_SemiBold } = variables.fontFamily;
 
 export default StyleSheet.create({ //1.12.2019 23:34
 
     buttonContainer: {
         marginTop: scale(40),
-        width: '100%',
+       width: '50%',
        
     },
 
@@ -21,7 +21,7 @@ export default StyleSheet.create({ //1.12.2019 23:34
         borderRadius: scale(50),      
         alignItems: 'center',
         borderWidth: scale(1),
-        borderColor: {GREY},
+        borderColor: {INPUT_BORDER_COLOR},
         justifyContent: 'center',
         height: scale(60),
 

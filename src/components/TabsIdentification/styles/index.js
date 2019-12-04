@@ -1,7 +1,7 @@
 import { StyleSheet } from 'react-native';
 
 import variables, { scale } from '../../../styles/variables';
-// import {} from '../../../styles/constants';
+import {WHITE} from '../../../styles/colorConstants';
 
 const { xx_large } = variables.fontSize;
 // const { IBMPlexSans_SemiBold } = variables.fontFamily;
@@ -9,12 +9,12 @@ const { xx_large } = variables.fontSize;
 export default StyleSheet.create({
   //28.11.2019 23:34
   heading: {
-    backgroundColor: '#fff',
-    borderColor: '#fff',
+    backgroundColor: WHITE,
+    borderColor: WHITE,
   },
   tabStyle: {
-    backgroundColor: '#fff',
-    borderColor: '#fff',
+    backgroundColor: WHITE,
+    borderColor: WHITE,
     
   },
 
@@ -29,7 +29,7 @@ export default StyleSheet.create({
   activeTabStyle: {
     borderBottomWidth: scale(3),
     borderBottomColor: '#2cc981',
-    backgroundColor: '#fff',
-    borderColor: '#fff',
+    backgroundColor: WHITE,
+    borderColor: WHITE,
   },
 });

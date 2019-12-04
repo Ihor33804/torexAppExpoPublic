@@ -1,7 +1,7 @@
 import { StyleSheet } from 'react-native';
 
  import variables, { scale } from '../../../styles/variables';
-// import {} from '../../../styles/constants';
+ import {GREEN, WHITE} from '../../../styles/colorConstants';
 
  const { regular } = variables.fontSize;
 // const { IBMPlexSans_SemiBold } = variables.fontFamily;
@@ -17,16 +17,16 @@ export default StyleSheet.create({ //28.11.2019 23:34
     },
 
     button: {
-        backgroundColor: '#2cc981',
+        backgroundColor: GREEN,
         borderRadius: scale(50),      
         alignItems: 'center',
         borderWidth: scale(1),
-        borderColor: '#2cc981',
+        borderColor: GREEN,
         justifyContent: 'center',
         height: scale(60),
     },
     buttonTitle: {
-      color: '#fff',
+      color: WHITE,
       fontSize: regular,
       justifyContent: 'center',
       alignItems: 'center',

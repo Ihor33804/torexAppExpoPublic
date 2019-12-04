@@ -8,7 +8,7 @@ const ButtonComponent = ({ titleButton, ...props }) => { //28.11.2019 23:34
   return (
     <View style={styles.buttonContainer}>
       <TouchableOpacity style={styles.button}>
-        <Text style={styles.buttonTitle}> {titleButton} </Text>
+        <Text style={[styles.buttonTitle]}> {titleButton} </Text>
       </TouchableOpacity>
     </View>
   );
@@ -16,10 +16,12 @@ const ButtonComponent = ({ titleButton, ...props }) => { //28.11.2019 23:34
 
 ButtonComponent.propTypes = {
   titleButton: PropTypes.string,
+
 };
 
 ButtonComponent.defaultProps = {
   titleButton: 'Submit',
+
 };
 
 export default ButtonComponent;
